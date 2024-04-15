@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+Todo Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Todo Application is a simple React application that allows users to manage their todo tasks efficiently. Below are the instructions for setting up and running the application:
+Setup Instructions
 
-## Available Scripts
+    Download the Code: Clone or download the code from the repository.
 
-In the project directory, you can run:
+    Install Dependencies: Navigate to the project directory in your terminal and run npm install to install all the necessary dependencies and packages for the React app.
 
-### `npm start`
+    Start the App: After installing the dependencies, run npm start in the terminal to start the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Todo Application consists of two main components:
+Navbar
 
-### `npm test`
+The Navbar component provides users with a toggle button to enable dark mode. This allows users to switch between light and dark themes based on their preference.
+Todo Component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Todo component allows users to perform various tasks related to managing todo items:
 
-### `npm run build`
+    Add Todo Task: Users can add a new todo task by entering the title and description in the input fields and clicking the "Add" button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Mark as Completed: Users can mark a todo task as completed by clicking the checkbox next to the task.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Delete Todo Task: Users can delete a todo task by clicking the delete button associated with the task.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Features
 
-### `npm run eject`
+    Local Storage: Todo tasks are saved in the browser's local storage, ensuring that they persist even after page reloads.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Efficient Task Management: Users can efficiently manage their todo tasks by adding, completing, and deleting tasks as needed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Conclusion
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+With its user-friendly interface and essential features, the Todo Application provides a convenient way for users to organize and manage their tasks effectively. Whether it's for personal use or professional task management, this application offers a seamless experience for users to stay organized and productive.
